@@ -1,20 +1,21 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-
+#' Hello World
+#' 
+#' Prints Hello World
+#' 
+#' @return None
+#' 
+#' @export
 hello <- function() {
   print("Hello, world!")
 }
 
-inc <- function(number) number + 1
+#' Increment
+#' 
+#' Increments a number by one
+#' 
+#' @param x a number
+#' 
+#' @return x incremented by one
+#' 
+#' @export
+inc <- function(x) x + 1
