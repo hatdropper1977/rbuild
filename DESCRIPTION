@@ -1,0 +1,12 @@
+Package: rbuild
+Title: A Package That Shows How To Test An R Script With Travis-CI
+Version: 0.0.0.9000
+Authors@R: person("John", "Sobanski", email = "sobanski.htc@gmail.com", role = c("aut", "cre"))
+Description: Shows how to use Travis-CI.
+Depends: R (>= 3.4.4)
+License: Apache
+Encoding: UTF-8
+LazyData: true
+Imports:
+  testthat
+Suggests: testthat

@@ -2,9 +2,5 @@ language: R
 cache: packages
 sudo: false
 
-addons:
-  apt:
-    packages: r-cran-testthat
-
-script:
-  - Rscript run_tests.R
+#script:
+#  - Rscript run_tests.R
