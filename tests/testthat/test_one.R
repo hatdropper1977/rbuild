@@ -26,5 +26,5 @@ expect_that(log('a'), throws_error())
 # Calls: <Anonymous> ... <Anonymous> -> o_apply -> lapply -> FUN -> <Anonymous>
 #   Execution halted
 #
-# E xited with status 1.
-(2 ^ 2) %>% expect_equal(43)
+# Exited with status 1.
+#(2 ^ 2) %>% expect_equal(43)
