@@ -1,0 +1,1 @@
+inc <- function(number) number + 1

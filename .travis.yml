@@ -1,0 +1,11 @@
+language: R
+ cache: packages
+ sudo: false
+
+ addons:
+   apt:
+     packages:
+       - testthat # for unit tests
+       
+script:
+   - R CMD run_tests.R
